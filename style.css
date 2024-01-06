@@ -1,0 +1,105 @@
+
+/* 
+colors: 
+#2A2F4F
+#917FB3
+#E5BEEC
+#FDE2F3
+*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #917FB3;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.box{
+    margin: auto;
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.genBtn{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #917FB3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* Reset some user agent styles */
+input[type="range"] {
+    /* -webkit-appearance: none;
+    -moz-apperance: none;
+    appearance: none; */
+    background-color: transparent;
+    /* Reset background color */
+}
+
+input[type="range"] {
+    accent-color: #917FB3;
+    color: #000;
+    margin: 20px 0;
+    margin-right: 9px;
+    /* appearance: none; */
+    /* border: 1px solid #4d21a2; */
+    outline: none;
+    width: 80%;
+        cursor: pointer;
+}
+
+
+.password-box{
+        position: relative;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+i{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #917FB3;
+    cursor: pointer;
+}
+
+span{
+    color: #2A2F4F;
+    font-size: 20px;
+    background-color: #E5BEEC;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
