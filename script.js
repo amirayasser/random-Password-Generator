@@ -80,12 +80,5 @@ copyIcon.addEventListener("click", () => {
     copyIcon.classList.replace("fa-regular", "fa-solid"); //replace icon
 });
 
-// let randomPassword = generateRandomPassword(length);
-// while (randomPassword.length < 8 || !isPasswordValid(randomPassword)) {
-//     if (randomPassword.length < 8) {
-//         console.log("⚠ Password length must be 8 or more characters.");
-//         length = prompt('enter password length')
-//     }
-//     randomPassword = generateRandomPassword(length);
-// }
+
 
